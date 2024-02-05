@@ -1,7 +1,3 @@
-Certainly! I'll format the provided text into Markdown format suitable for inclusion in a README file:
-
----
-
 ## Key Insights
 
 ### Evening Peak Activity
@@ -46,7 +42,3 @@ Certainly! I'll format the provided text into Markdown format suitable for inclu
 
 ### Continuous Monitoring and Adaptation
 - Regularly monitor customer ratings, sales trends, and product performance to adapt strategies in real-time and address any emerging issues promptly.
-
----
-
-This format is now ready to be included in your README.md file, providing a structured and clear overview of the insights, performance analysis, and recommendations based on your Walmart sales data analysis project.
