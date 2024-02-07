@@ -1,4 +1,3 @@
--- Active: 1705924926922@@localhost@3306
 CREATE DATABASE Human_Resources;
 USE Human_Resources;
 
