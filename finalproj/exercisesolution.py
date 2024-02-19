@@ -44,6 +44,7 @@ def update_booking(order_id, new_delivery_date=None, new_sales=None):
     db_connection.commit()
     
     print(f"Booking {order_id} updated.")
+  
 
 add_booking('123456', '2023-01-01', '2023-01-03', 200.00, 2, 10.00, 20.00)
 update_booking('order123', new_delivery_date='2023-02-01', new_sales=250.00)
