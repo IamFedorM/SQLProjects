@@ -10,6 +10,13 @@ db_connection = mysql.connector.connect(
 )
 db_cursor = db_connection.cursor()
 
+def get_max_quantity():
+    query = "SELECT ProductID, MAX(Quantity) FROM OrderDetails GROUP BY ProductID"
+    db_cursor.execute(query)
+    result = db_cursor.fetchall()
+    for product in result:
+        print(f"Product ID: {product[0]}, Max Quantity: {product[1]}")
+
 def add_booking(customer_id, order_date, delivery_date, sales, quantity, discount, delivery_cost):
     add_order_query = """
     INSERT INTO Orders (OrderDate, DeliveryDate, CustomerID, Sales, Quantity, Discount, DeliveryCost)
